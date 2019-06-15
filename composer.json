@@ -1,0 +1,50 @@
+{
+  "name": "sambenne/laravel-zip",
+  "description": "laravel-zip is the world's leading zip utility for file compression and backup.",
+  "license": "MIT",
+  "homepage": "http://www.sambenne.co.uk",
+  "authors": [
+    {
+      "name": "Zany Soft",
+      "email": "info@zanysoft.co",
+      "homepage": "http://www.zanysoft.co"
+    },
+    {
+      "name": "Sam Bennett",
+      "email": "bennettsst@gmail.com",
+      "homepage": "http://www.sambenne.co.uk"
+    }
+  ],
+  "keywords": [
+    "laravel-zip",
+    "laravel",
+    "laravel5",
+    "zip",
+    "unzip",
+    "extract",
+    "backup",
+    "ZipArchive",
+    "multiple",
+    "merge"
+  ],
+  "extra": {
+    "laravel": {
+      "providers": [
+        "SamBenne\\Zip\\ZipServiceProvider"
+      ],
+      "aliases": {
+        "Zip": "SamBenne\\Zip\\ZipFacade"
+      }
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "SamBenne\\Zip\\": "src"
+    }
+  },
+  "require": {
+    "php": ">=7.0.0"
+  },
+  "require-dev": {
+  }
+}
